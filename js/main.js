@@ -62,6 +62,21 @@ new Swiper('.bg-slider__body', {
   speed: 800,
   effect: 'fade',
 });
+new Swiper('.specialists__block', {
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.arrow-right',
+    prevEl: '.arrow-left',
+  },
+  // loop: true,
+  // autoplay: {
+  //   delay: 5000,
+  //   stopOnLastSlide: false,
+  //   disableOnInterection: false,
+  // },
+  // speed: 800,
+  // effect: 'fade',
+});
 
 ////
 
