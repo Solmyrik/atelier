@@ -658,6 +658,19 @@ main {
   }
 }
 
+.modal-service__close {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  width: 35px;
+  height: 35px;
+}
+
+.modal-service__close img {
+  width: 35px;
+  height: 35px;
+}
+
 .modal-service__body {
   min-height: 50vh;
   max-height: 50vh;
@@ -936,6 +949,10 @@ main {
   .arrow-right img {
     width: 30px;
   }
+}
+
+.contacts {
+  margin-bottom: 0;
 }
 
 .contacts__items {
